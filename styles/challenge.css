@@ -1,0 +1,202 @@
+.headermobile{
+  height:30px;
+  width: 100%;
+}
+
+
+.copyhead{
+  
+  color: green;
+  font-size: 50px;
+   position: absolute;
+      top: 2px;
+      left: 50%;
+}
+
+
+
+button {
+      font-family: sans-serif;
+      border: none;
+      padding: 10px 20px;
+      font-size: 15px;
+      outline: none;
+      margin: 10px;
+      -webkit-transition-duration: 1s; /* for Safari */
+      transition-duration: 1s;
+      display: none;
+      margin-left: auto;
+      margin-right: auto;
+
+
+    }
+    #button1 {
+      background-color: rgb(23, 52, 89);
+      color: #f8f9f9;
+      box-shadow: .5px .5px 1px 2px #000000;
+    }
+    #button2 {
+      background-color: transparent;
+      color: #903C56;
+      box-shadow: .5px .5px 1px 2px #000000;
+    }
+    #button1:hover {
+      background-color: #f8f9f9;
+      color: rgb(23, 52, 89);
+      box-shadow: 1px 1px 2px 3px #000000;
+      cursor: pointer;
+    }
+    #button2:hover {
+      background-color: #903C56;
+      color: #f8f9f9;
+      box-shadow: 1px 1px 2px 3px #000000;
+      cursor: pointer;
+    }
+
+
+.computer {
+  
+      width: 190px;
+      height: 180px;
+      float: left;
+      
+    }
+    .returonline{
+      clear: left;
+    }
+     
+     
+      @media only screen and (min-width: 768px){
+        .computer {width: 500px;
+          height: 400PX;}
+
+
+      }
+     
+
+
+    
+
+.device {
+     
+      width: 350px;
+      transition-duration: 1s;
+    
+    }
+
+      @media only screen and (min-width: 768px){
+        .device {display: block;
+          margin-left: auto;
+          margin-right: auto;}
+
+
+      }
+     
+    .device > img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0px;
+    }
+    .device > p {
+      font-family: sans-serif;
+      padding: 0px 10px 10px 10px;
+      text-align: center;
+    }
+    .device:hover {
+      box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+      width: 300px;
+    }
+
+.image1{
+  width: 72px;
+}
+.image2{
+  width: 72px;
+}
+
+.image3{
+  width: 72px;
+}
+
+.image4{
+  width: 72px;
+}
+
+.image5{
+  width: 72px;
+}
+
+      @media only screen and (min-width: 768px){
+        .allimages {display: block;
+          margin-left: auto;
+          margin-right: auto;}
+          .image1{
+  width: 200px;
+}
+.image2{
+  width: 200px;
+}
+
+.image3{
+  width: 200px;
+}
+
+.image4{
+  width: 200px;
+}
+
+.image5{
+  width: 200px;
+}
+
+
+      }
+
+
+
+h3{
+
+  text-align: center;
+  font-size: 15px;
+  color: hsl(171, 66%, 44%);
+   font-family: [Bai jampuree](http://fonts.google.com/specimen/Bai+jampuree)
+    }
+
+p{
+  font-family: [Bai jampuree](http://fonts.google.com/specimen/Bai+jampuree)
+  font-size: 14px;
+  text-align: center;
+  color: lightgray;
+    }
+
+          @media only screen and (min-width: 768px){
+        P{font-size: 20px;}
+        h3{ font-size: 30px; }
+
+
+      }
+
+     
+.copy{
+  font-size: 45px;
+  color: green;
+      margin: 0px; 
+      padding: 0px; }
+
+
+.about{
+  font-size: 15px;
+  float: right;
+  margin-right: 100px;
+  color: hsl(171, 66%, 44%);
+    }
+
+
+
+footer{
+  height:auto;
+  width: 100%;
+  background: lightgray;
+
+}
